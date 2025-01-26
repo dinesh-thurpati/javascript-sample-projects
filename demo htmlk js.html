@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id = "demo">created based on both javascript and html and css</p>
+
+    <button  onclick = "hide()">TRUE</button>
+    <button  onclick = "show()">FALSE</button>
+<script>
+
+     div = document.getElementById(demo)
+    demo.style.color = "red"
+    demo.style.display = " block"
+    document.body.appendChild(demo)
+</script>
+<script>
+    function hide(){
+        console.log(TRUE)
+        document.body.appendChild(hide())
+    }
+    function show(){
+        console.log(FALSE)
+        document.body.appendChild(show())
+    }
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
